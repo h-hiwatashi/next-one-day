@@ -59,3 +59,9 @@ export async function getNewsData(page: number = 1) {
     pages,
   };
 }
+
+type NewProps = {
+  params: {
+    page?: string;
+  };
+};
